@@ -1,3 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 h1 {
-    
+    color: white;
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+    padding: 15px;
+}
+
+.nav {
+    display: flex;
+    border: 1px solid black;
+    background-color: black;
+    justify-content: space-evenly;
+    /* margin: 8px 8px 8px 8px; */
+}
+
+ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 100px;
+    text-align: center;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.btn {
+    background-color: lightcyan;
+    border-radius: 15%;
+}
+
+.row {
+    display: flex;
+}
+.col {
+    display: flex;
+    padding: 20px;
+}
+
+.col-2 {
+    /* padding: 20px; */
+    display: flex;
+    margin: 10px;
+}
+
+/* li {
+    display: block;
+    width: 100px;
+    height: 50px;
+    float: left;
+} */
+
+body {
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div#container {
+    width: 410px;
+    border-style: groove;
+    border-width: 10px;
+    /* box-shadow: -5px 2px 18px 4px #ccc; */
+}
+
+.profile-pic {
+    background: #0c838b;
+    width: 405px;
+    height: 95px;
+}
+
+.pic {
+    background: #f9f9f9;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    position: relative;
+    top: -50px;
+    right: -25px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+.details {
+    background: #f9f9f9;
+    width: 150px;
+    height: 100px;
+    position: relative;
+    top: -35px;
+}
+
+h2.name, h3, a {
+    margin: 0;
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 20px;
+}
+
+h3.content {
+    width: 400px;
+    padding-bottom: 10px;
+    /* display: inline;
+    padding: 2em; */
+}
+
+.p {
+    width: 400px;
+    padding-bottom: 10px;
 }
